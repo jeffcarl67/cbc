@@ -1,8 +1,8 @@
 package net.loveruby.cflat.entity;
 import net.loveruby.cflat.ast.TypeNode;
 
-public class Parameter extends DefinedVariable {
-    public Parameter(TypeNode type, String name) {
+public class Param extends DefinedVariable {
+    public Param(TypeNode type, String name) {
         super(false, type, name, null);
     }
 
